@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(Imagem/redefinirsenha01\ escura.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin-left: 900px;
+  background-color:#f1889bb6;
+      margin-top: 30px;
+}
+button:hover{
+  background-color: #4c082e;
+}
+button>a:hover{
+ font-weight:bold;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid#82002B;
+  border-radius: 10px;
+}
+main button {
+  width:70%;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 30px;
+}
+button>a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+img{
+  width: 60px
+}
+
+main h5{
+  margin: 20px;
+  color:#ffffff;
+}
+a{
+  color: #82002B;
+}
+main h2{
+  color: #82002B;
+}

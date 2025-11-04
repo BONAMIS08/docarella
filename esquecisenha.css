@@ -1,0 +1,72 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+   background-image: url(Imagem/cadastro\ escura.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+   background-color: #f1889bb6;
+      margin-top: 30px;
+}
+button:hover{
+  background-color: #4c082e;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  color: #82002B;
+ margin: 20px;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4C082E;
+  border-radius: 10px;
+  color: #2D2E83;
+}
+main button {
+  width:70%;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 30px;
+}
+h5>a{
+  color: #82002B;
+}
+h
+p{
+  font-size: 15px;
+  color: #4C082E;
+  text-align: left;
+  margin-top: 20px;
+}
+button>a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.aviso{
+  font-size: 15px;
+  color:#ffffff;
+}

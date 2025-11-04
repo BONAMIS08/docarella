@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image:url(Imagem/login02\ escura.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin-left: 500px;
+  background-color:#f1889bcb;
+  margin-top: 100px;
+}
+main h2 {
+  margin-bottom: 20px;
+  color:#82002B
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #82002B;
+  border-radius: 10px;
+}
+main button {
+  width: 80%;
+  padding: 10px;
+  background-color:darkgreen;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 40px;
+  font-size: 18px;
+}
+button:hover{
+  background-color:#4c082e;
+}
+button>a:hover{
+ font-weight:bold;
+}
+.recup {
+  color: #82002B;
+}
+h5 {
+  margin-top: 15px;
+  text-align: left;
+}
+main > button > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p > a {
+  color: #82002B;
+}
+p {
+  font-size: 15px;
+  margin: -15px;
+}
+h6 {
+  text-align: left;
+  margin-top: 10px;
+}

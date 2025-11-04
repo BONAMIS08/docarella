@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: "Poppins", sans-serif;
+background-color: #FFEEF1;
+}
+.caixa{
+  display: flex;
+   background-color: #82002B;
+    gap: 10px;
+     box-shadow: 0 4px 6px rgba(85, 1, 1, 0.742);
+     
+}
+ 
+
+    .logo2{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+   .icon{
+      width: 35px;
+      height: 35px;
+      margin-top: -6px;
+    }
+    .navegador{
+      list-style-type: none;
+      display: flex;
+      margin-top: 30px;
+      gap: 100px;
+    margin-left: 80px;
+    }
+    a{
+      text-decoration: none;
+      color: #FFCDD4;
+      position: relative;
+      padding-bottom:10px;
+    }
+    a:hover{
+      color: #FFEEF1;
+      transition: 1s;
+    }
+   a::after{
+      content: " ";
+      width: 0%;
+      height: 3px;
+      border-radius: 10px;
+      background-color: #FFCDD4;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: 0.5s ease-in-out;
+    }
+a:hover::after{
+  width: 100%;
+}
+
+.titulo{
+  text-align: center;
+margin: 40px;
+  color: #600221;
+}
+.titulo>h1{
+  font-size: 48px;
+}
+.titulo>p{
+  font-size: 18px;
+}
+hr{
+  background-color: #582D00;
+  height: 3px;
+  width: 880px;
+  margin: auto;
+  border-radius: 20px;
+}
+.morango>img{
+width: 200px;
+border-radius: 20px;
+box-shadow: 0px 0px 20px #582d00a7;
+}
+button{
+background-color: #582D00;
+color: #fec8cf;
+font-size: 20px;
+border-radius: 20px;
+width: 200px;
+height: 50px;
+margin-top: 20px;
+border: none; 
+ box-shadow: 0px 0px 10px #381d00;
+
+}
+
+button:hover{
+  background-color: #FFCDD4;
+  color: #582D00;
+box-shadow: 0px 0px 10px #b28f93;
+transition: 0.5s;
+}
+nav>p{
+  margin-top: 10px;
+  color: #600221;
+  font-size: 18px;
+}
+.bala>img{
+width: 200px;
+border-radius: 20px;
+box-shadow: 0px 0px 20px #582d00a7;
+}
+
+.cone>img{
+width: 200px;
+border-radius: 20px;
+box-shadow: 0px 0px 20px #582d00a7;
+}
+.copodafelicidade>img{
+width: 200px;
+border-radius: 20px;
+box-shadow: 0px 0px 20px #582d00a7;
+}
+
+.monte1{
+justify-content: center;
+  display: flex;
+  margin-top: 80px;
+  gap: 140px;
+}
+.monte2{
+justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  gap: 140px;
+}
+.monte3{
+justify-content: center;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 180px;
+  gap: 140px;
+}
+
+footer {
+    background-color: #582D00;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+nav{
+  display: flex;
+  background-color: #82002B;
+  gap: 10px;
+  box-shadow: 0 4px 6px rgba(85, 1, 1, 0.742);
+     
+}
+ 
+
+    .logo2{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+   .icon{
+      width: 35px;
+      height: 35px;
+      margin-top: -6px;
+    }
+    .navegador{
+      list-style-type: none;
+      display: flex;
+      margin-top: 30px;
+      gap: 100px;
+      margin-left: 80px;
+    }
+    a{
+      text-decoration: none;
+      color: #FFCDD4;
+      position: relative;
+      padding-bottom:10px;
+    }
+    a:hover{
+      color: #FFEEF1;
+      transition: 1s; 
+    }
+   a::after{
+      content: " ";
+      width: 0%;
+      height: 3px;
+      border-radius: 10px;
+      background-color: #FFCDD4;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: 0.5s ease-in-out;
+    } 
+a:hover::after{
+  width: 100%;
+}
+    
+    .iconeconta{
+      margin-top: 20px;
+     margin-left: 80px;
+    }
+   .iconeinfo{
+     background-color: #FFCDD4;
+   }
+
+.imagem {
+  margin-top: 10px;
+  width: 200px;
+}
+
+
+.contato {
+  background-color: #FFE4EC;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contato h2 {
+  font-size: 26px;
+  margin-bottom: 40px;
+  color: #82002B;
+  letter-spacing: 1px;
+}
+
+.contato .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  color:white;
+}
+
+.card {
+  text-align: center;
+  max-width: 250px;
+  background-color:#82002B;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgb(49, 47, 47);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+  color: #c2185b;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+.mapa {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.mapa img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+footer {
+    background-color:#582D00;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .contato .info {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .mapa img {
+    width: 100%;
+  }
+}
